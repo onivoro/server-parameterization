@@ -1,3 +1,7 @@
-export {Arg} from './lib/arg.decorator';
-export {Env} from './lib/env.decorator';
-export {Parameter} from './lib/parameter.class';
+import { Arg } from './lib/arg';
+export { Env } from './lib/env';
+export { Parameter } from './lib/parameter';
+
+class All extends Arg<string> { id = () => 'things' }
+
+console.log(new All().value())
