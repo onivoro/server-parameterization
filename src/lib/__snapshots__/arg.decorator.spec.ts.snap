@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`argDecorator reads the conventionally-implied process argument and stores both raw and typed representations thereof 1`] = `
+SomeString {
+  "key": "some-string",
+  "source": "process.argv",
+  "typedValue": "asdf",
+  "value": "asdf",
+}
+`;
+
+exports[`argDecorator reads the conventionally-implied process argument and stores both raw and typed representations thereof 2`] = `
+SomeNumber {
+  "key": "some-number",
+  "source": "process.argv",
+  "typedValue": 337,
+  "value": "337",
+}
+`;
+
+exports[`argDecorator reads the conventionally-implied process argument and stores both raw and typed representations thereof 3`] = `
+SomeBool {
+  "key": "some-bool",
+  "source": "process.argv",
+  "typedValue": false,
+  "value": "false",
+}
+`;
+
+exports[`argDecorator reads the conventionally-implied process argument and stores both raw and typed representations thereof 4`] = `
+OtherBool {
+  "key": "other-bool",
+  "source": "process.argv",
+  "typedValue": true,
+  "value": "true",
+}
+`;
+
+exports[`argDecorator reads the conventionally-implied process argument and stores both raw and typed representations thereof 5`] = `
+SomeDate {
+  "key": "some-date",
+  "source": "process.argv",
+  "typedValue": 2020-12-20T11:31:41.378Z,
+  "value": "2020-12-20T11:31:41.378Z",
+}
+`;
