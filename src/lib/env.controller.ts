@@ -11,6 +11,7 @@ export class EnvController {
   @Get('v/:name')
   async getOne(@Param() params: { name: string }) {
     const { name } = params;
+
     return name ? process.env[params.name] : process.env;
   }
 }
