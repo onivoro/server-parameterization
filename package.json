@@ -1,6 +1,6 @@
 {
     "name": "@onivoro/server-parameterization",
-    "version": "22.0.1",
+    "version": "22.11.0",
     "repository": {
         "url": "git+https://github.com/onivoro/server-parameterization.git"
     },
